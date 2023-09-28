@@ -38,7 +38,7 @@ export const Element = () => {
                       size="l"
                       state="default"
                       text="EARLY ACCESS"
-                      link="/earlyaccess"
+                      link="https://forms.gle/M47ndNGs8JCts73g6"
                     />
                   </div>
                 </header>
@@ -47,20 +47,19 @@ export const Element = () => {
               <div className="flex flex-col xl:flex-row items-center justify-center xs:pt-24 md:pt-24">
                 <div className="flex flex-col justify-center xl:justify-start z-10 max-w-[804px] ">
                   <p className="[font-family:'Righteous',Helvetica] font-normal text-[42px] lg:text-[58px] 2xl:text-[72px] text-white text-center xl:text-left xl:ml-14 2xl:ml-0 lg:p-4">
-                    INSTANT SAT SELLING,
+                    LAUNCH SWAP STAKE
                     <br />
-                    BUYING AND STAKING
+                    YOUR <span className={`text-[#ffb24b]`}>SATS</span>
                   </p>
                   <p className="[font-family:'Poppins',Helvetica] font-normal text-white text-[18px] lg:text-[22px] xl:text-[28px] leading-[32px] text-center p-4 xl:text-left xl:ml-10 2xl:ml-0 md:p-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
-                    elementum tristique. Duis cursus, mi quis viverra ornare, eros
+                    DISCOVER <span className={`text-[#ffb24b]`}>BITCOIN</span> TREASURES
                   </p>
                   <div className="flex items-center max-w-[450px] flex-col mx-auto xl:mx-0 md:flex-row pt-[20px] xl:p-4 ">
                     <MainButton
                       className="w-full h-20 xl:ml-14 2xl:ml-0"
                       size="l"
                       state="default"
-                      link="/earlyaccess"
+                      link="https://forms.gle/M47ndNGs8JCts73g6"
                     />
                   </div>
                 </div>
@@ -74,7 +73,7 @@ export const Element = () => {
 
               <div className="flex flex-col justify-center w-screen items-center mx-auto pt-72 sm:pt-14 md:pt-48 xl:pt-80 px-[10px]">
                 <div className="[font-family:'Righteous',Helvetica] font-normal text-[42px] lg:text-[58px] text-center leading-[43px] text-white">
-                  HOW SATOLOGY WORKS
+                  HOW <span className={`text-[#ffb24b]`}>SAT</span>OLOGY WORKS
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-[1350px] md:pt-10">
                   <Card
@@ -82,8 +81,7 @@ export const Element = () => {
                     headingClassName="!tracking-[0] !text-[36px] ![font-style:unset] !font-bold ![font-family:'Poppins',Helvetica] !leading-[48.0px]"
                     satoshiRegular="/img/satoshi-regular-elipse-1-1.svg"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
-                    description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
-                       Duis cursus, mi quis viverra ornare, eros`}
+                    description={`Launch your own special sat that will resonate with collectors and traders. From FTX Crash sats to John sats. `}
                   />
                   <Card
                     className="w-full"
@@ -91,8 +89,7 @@ export const Element = () => {
                     satoshiRegular="/img/satoshi-regular-elipse-1-2.svg"
                     text="SWAP"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
-                    description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
-                       Duis cursus, mi quis viverra ornare, eros`}
+                    description={`Satology aligns the popular AMM model allowing instant buying and selling of special sats. .`}
                   />
                   <Card
                     className="w-full"
@@ -100,8 +97,7 @@ export const Element = () => {
                     satoshiRegular="/img/satoshi-regular-elipse-1-3.svg"
                     text="TRADE"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
-                    description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
-                       Duis cursus, mi quis viverra ornare, eros`}
+                    description={`Become a liquidity provider and earn rewards. When users swap, LP earns a cut of the pool’s fees proportional to their stake.`}
                   />
                   <Card
                     className="w-full"
@@ -109,8 +105,7 @@ export const Element = () => {
                     satoshiRegular="/img/satoshi-regular-elipse-1-3.svg"
                     text="POOL"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
-                    description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
-                       Duis cursus, mi quis viverra ornare, eros`}
+                    description={`Explore Digital Numismatic world.  Learn everything about satoshis: types of sats, rarities, sat hunting & tips from greatest Satologists.`}
                   />
                 </div>
               </div>
@@ -120,9 +115,12 @@ export const Element = () => {
                   <footer className="flex flex-col items-center justify-center gap-[32px] mt-24 pt-[30px] pb-[30px] border-t [border-top-style:solid] [border-right-style:none] [border-bottom-style:none] [border-left-style:none] border-social-links">
                     <div className="flex flex-col-reverse md:flex-row gap-[24px] items-center justify-between relative self-stretch w-full">
                       <div className="inline-flex items-center gap-[24px]">
-                        <div className="relative w-fit [font-family:'Poppins',Helvetica] font-normal text-social-links text-[16px] tracking-[0] leading-[24px] whitespace-nowrap">
-                          satology.io@gmail.com
-                        </div>
+                        <a
+                          href="mailto:satologyio@proton.me"
+                          className="relative block w-fit [font-family:'Poppins',Helvetica] font-normal text-social-links text-[16px] tracking-[0] leading-[24px] whitespace-nowrap"
+                        >
+                          satologyio@proton.me
+                        </a>
                       </div>
                       <div>
                         <div className="flex flex-col items-center">
@@ -130,28 +128,27 @@ export const Element = () => {
                             Partners
                           </div>
                           <div className="inline-flex items-center gap-[24px]">
-                            <a href="/">
+                            <a href="https://twitter.com/raresatsociety">
                               <img
                                 className="relative w-[50px] h-[50px] logo-partner rounded-[50%]"
                                 alt="partner RSS"
                                 src="/img/logo_rss.jpg"
                               />
                             </a>
-                            <a href="/">
+                            <a href="https://twitter.com/bison_labs">
                               <img
                                 className="relative w-[60px] h-[60px] logo-partner"
                                 alt="partner Byzon Labs"
                                 src="/img/logo_byzon_labs.png"
                               />
                             </a>
-                            <a href="/">
+                            <a href="https://twitter.com/btcstartuplab">
                               <img
                                 className="relative w-[50px] h-[50px] logo-partner rounded-[50%]"
                                 alt="partner RSS"
                                 src="/img/logo_b.jpg"
                               />
                             </a>
-
                           </div>
                         </div>
                       </div>
@@ -162,7 +159,7 @@ export const Element = () => {
                           discordClassName="bg-[url(./static/img/combined-shape-2.svg)]"
                         />
                         <a
-                          href="/"
+                          href="https://twitter.com/satology_io"
                           className={`icon-social`}
                         >
                           <div className="bg-[url(./static/img/combined-shape-4.svg)] bg-[100%_100%] relative w-[40px] h-[40px]" />

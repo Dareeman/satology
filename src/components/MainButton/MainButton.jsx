@@ -4,12 +4,11 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import PropTypes from "prop-types";
-import React from "react";
 import {Link} from "react-router-dom";
 
 export const MainButton = ({size, state, className, link = "#"}) => {
   return (
-    <Link to={link}>
+    <a href={link}>
       <div
         className={`btn-primary w-[202px] flex items-center gap-[8px] px-[24px] py-[12px] rounded-[19px] justify-center relative 
         ${["default", "normal"].includes(state) ? "bg-main" : ""} ${className}`}
@@ -23,7 +22,7 @@ export const MainButton = ({size, state, className, link = "#"}) => {
           EARLY ACCESS
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 

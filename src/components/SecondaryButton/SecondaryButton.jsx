@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 export const SecondaryButton = ({ size, state, className, text = "Swap", link = "#" }) => {
   return (
-    <Link to={link}>
+    <a href={link}>
       <div
         className={`btn-secondary inline-flex items-center gap-[8px] px-[24px] py-[12px] rounded-[13px] justify-center relative ${state === "active"
             ? "[background:linear-gradient(180deg,rgb(177.44,177.44,177.44)_0%,rgb(255,255,255)_100%)]"
@@ -38,7 +38,7 @@ export const SecondaryButton = ({ size, state, className, text = "Swap", link = 
           {text}
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 
