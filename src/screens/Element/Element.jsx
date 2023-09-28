@@ -104,7 +104,7 @@ export const Element = () => {
                     className="w-full"
                     headingClassName="!tracking-[0] !text-[36px] ![font-style:unset] !font-bold ![font-family:'Poppins',Helvetica] !leading-[48.0px]"
                     satoshiRegular="/img/satoshi-regular-elipse-1-3.svg"
-                    text="SATOLOGY HANDBOOK"
+                    text="SATOLOGY BOOK"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
                     description={`Explore Digital Numismatic world.  Learn everything about satoshis: types of sats, rarities, sat hunting & tips from greatest Satologists.`}
                   />
