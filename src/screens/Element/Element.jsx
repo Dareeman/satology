@@ -144,6 +144,14 @@ export const Element = () => {
                                 src="/img/logo_byzon_labs.png"
                               />
                             </a>
+                            <a href="/">
+                              <img
+                                className="relative w-[50px] h-[50px] logo-partner rounded-[50%]"
+                                alt="partner RSS"
+                                src="/img/logo_b.jpg"
+                              />
+                            </a>
+
                           </div>
                         </div>
                       </div>
