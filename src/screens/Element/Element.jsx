@@ -19,7 +19,7 @@ export const Element = () => {
         element={
           <div className="flex justify-center w-full">
             <div className="bg-switch w-full min-h-screen bg-cover bg-top md:min-w-[2500px]">
-              <div className="flex xs:pl-[40px] md:pl-0 md:justify-center w-auto">
+              <div className="flex pl-[40px] md:pl-0 md:justify-center w-auto">
                 <header className="flex mt-[50px] md:w-[700px] lg:w-[930px] xl:w-[1250px] md:justify-between items-center">
                   <div className="inline-flex justify-start md:justify-center items-center gap-[16.25px]">
                     <img
@@ -44,7 +44,7 @@ export const Element = () => {
                 </header>
               </div>
 
-              <div className="flex flex-col xl:flex-row items-center justify-center xs:pt-24 md:pt-24">
+              <div className="flex flex-col xl:flex-row items-center justify-center pt-24 md:pt-24">
                 <div className="flex flex-col justify-center xl:justify-start z-10 max-w-[804px] ">
                   <p className="[font-family:'Righteous',Helvetica] font-normal text-[42px] lg:text-[58px] 2xl:text-[72px] text-white text-center xl:text-left xl:ml-14 2xl:ml-0 lg:p-4">
                     LAUNCH SWAP STAKE
@@ -64,15 +64,15 @@ export const Element = () => {
                   </div>
                 </div>
                 <div
-                  className="xs:hidden sm:flex w-[424px] h-[424px] md:w-[574px] md:h-[574px] xl:w-[674px] xl:h-[674px] bg-cover z-0 rotate-div"
+                  className="sm:flex w-[424px] h-[424px] md:w-[574px] md:h-[574px] xl:w-[674px] xl:h-[674px] bg-cover z-0 rotate-div"
                   style={{
                     backgroundImage: "url('./img/illustration.png')"
                   }}
                 />
               </div>
 
-              <div className="flex flex-col justify-center w-screen items-center mx-auto pt-72 sm:pt-14 md:pt-48 xl:pt-80 px-[10px]">
-                <div className="[font-family:'Righteous',Helvetica] font-normal text-[42px] lg:text-[58px] text-center leading-[43px] text-white">
+              <div className="flex flex-col justify-center w-screen items-center mx-auto pt-60 sm:pt-14 md:pt-48 xl:pt-80 px-[10px]">
+                <div className="[font-family:'Righteous',Helvetica] font-normal text-[42px] lg:text-[58px] text-center leading-[43px] text-white mb-[3rem]">
                   HOW <span className={`text-[#ffb24b]`}>SAT</span>OLOGY WORKS
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-[1350px] md:pt-10">
