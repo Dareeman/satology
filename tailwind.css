@@ -1,0 +1,237 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --bg-2-linear: rgba(33, 31, 35, 1);
+  --black: rgba(36, 36, 36, 1);
+  --button-font-family: "Poppins-Bold", Helvetica;
+  --button-font-size: 22px;
+  --button-font-style: normal;
+  --button-font-weight: 700;
+  --button-letter-spacing: 0px;
+  --button-line-height: 150%;
+  --button-secondary-font-family: "Poppins-Bold", Helvetica;
+  --button-secondary-font-size: 16px;
+  --button-secondary-font-style: normal;
+  --button-secondary-font-weight: 700;
+  --button-secondary-letter-spacing: 0px;
+  --button-secondary-line-height: 150%;
+  --desktop-body-font-family: "Poppins-Regular", Helvetica;
+  --desktop-body-font-size: 18px;
+  --desktop-body-font-style: normal;
+  --desktop-body-font-weight: 400;
+  --desktop-body-letter-spacing: 0px;
+  --desktop-body-line-height: 160.0000023841858%;
+  --desktop-heading-1-font-family: "Righteous-Regular", Helvetica;
+  --desktop-heading-1-font-size: 56px;
+  --desktop-heading-1-font-style: normal;
+  --desktop-heading-1-font-weight: 400;
+  --desktop-heading-1-letter-spacing: 0px;
+  --desktop-heading-1-line-height: 120.00000476837158%;
+  --desktop-heading-2-font-family: "Righteous-Regular", Helvetica;
+  --desktop-heading-2-font-size: 48px;
+  --desktop-heading-2-font-style: normal;
+  --desktop-heading-2-font-weight: 400;
+  --desktop-heading-2-letter-spacing: 0px;
+  --desktop-heading-2-line-height: 120.00000476837158%;
+  --desktop-heading-3-font-family: "Poppins-Bold", Helvetica;
+  --desktop-heading-3-font-size: 32px;
+  --desktop-heading-3-font-style: normal;
+  --desktop-heading-3-font-weight: 700;
+  --desktop-heading-3-letter-spacing: 0px;
+  --desktop-heading-3-line-height: 120.00000476837158%;
+  --links-font-family: "Poppins-Regular", Helvetica;
+  --links-font-size: 14px;
+  --links-font-style: normal;
+  --links-font-weight: 400;
+  --links-letter-spacing: 0px;
+  --links-line-height: 150%;
+  --main: rgba(255, 178, 75, 1);
+  --mobile-button-font-family: "Poppins-Bold", Helvetica;
+  --mobile-button-font-size: 18px;
+  --mobile-button-font-style: normal;
+  --mobile-button-font-weight: 700;
+  --mobile-button-letter-spacing: 0px;
+  --mobile-button-line-height: 150%;
+  --mobile-button-secondary-font-family: "Poppins-Bold", Helvetica;
+  --mobile-button-secondary-font-size: 16px;
+  --mobile-button-secondary-font-style: normal;
+  --mobile-button-secondary-font-weight: 700;
+  --mobile-button-secondary-letter-spacing: 0px;
+  --mobile-button-secondary-line-height: 150%;
+  --mobile-heading-1-font-family: "Righteous-Regular", Helvetica;
+  --mobile-heading-1-font-size: 32px;
+  --mobile-heading-1-font-style: normal;
+  --mobile-heading-1-font-weight: 400;
+  --mobile-heading-1-letter-spacing: 0px;
+  --mobile-heading-1-line-height: 120.00000476837158%;
+  --mobile-heading-2-font-family: "Righteous-Regular", Helvetica;
+  --mobile-heading-2-font-size: 24px;
+  --mobile-heading-2-font-style: normal;
+  --mobile-heading-2-font-weight: 400;
+  --mobile-heading-2-letter-spacing: 0px;
+  --mobile-heading-2-line-height: 120.00000476837158%;
+  --mobile-heading-3-font-family: "Poppins-Bold", Helvetica;
+  --mobile-heading-3-font-size: 20px;
+  --mobile-heading-3-font-style: normal;
+  --mobile-heading-3-font-weight: 700;
+  --mobile-heading-3-letter-spacing: 0px;
+  --mobile-heading-3-line-height: 120.00000476837158%;
+  --social-links: rgba(186, 186, 186, 1);
+  --tablet-body-font-family: "Poppins-Regular", Helvetica;
+  --tablet-body-font-size: 16px;
+  --tablet-body-font-style: normal;
+  --tablet-body-font-weight: 400;
+  --tablet-body-letter-spacing: 0px;
+  --tablet-body-line-height: 160.0000023841858%;
+  --tablet-heading-1-font-family: "Righteous-Regular", Helvetica;
+  --tablet-heading-1-font-size: 48px;
+  --tablet-heading-1-font-style: normal;
+  --tablet-heading-1-font-weight: 400;
+  --tablet-heading-1-letter-spacing: 0px;
+  --tablet-heading-1-line-height: 120.00000476837158%;
+  --tablet-heading-2-font-family: "Righteous-Regular", Helvetica;
+  --tablet-heading-2-font-size: 40px;
+  --tablet-heading-2-font-style: normal;
+  --tablet-heading-2-font-weight: 400;
+  --tablet-heading-2-letter-spacing: 0px;
+  --tablet-heading-2-line-height: 120.00000476837158%;
+  --tablet-heading-3-font-family: "Poppins-Bold", Helvetica;
+  --tablet-heading-3-font-size: 24px;
+  --tablet-heading-3-font-style: normal;
+  --tablet-heading-3-font-weight: 700;
+  --tablet-heading-3-letter-spacing: 0px;
+  --tablet-heading-3-line-height: 120.00000476837158%;
+  --variable-collection-icons: rgba(218, 218, 218, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1024px) {
+  .rotate-div {
+    transform: rotate(25deg);
+  }
+}
+
+@media (max-width: 475px) {
+  .rotate-div {
+    transform: rotate(30deg);
+  }
+}
+
+.bg-switch {
+  background-image: url('./static/img/small-bg.png');
+  /* background-size: auto; */
+}
+
+@screen md {
+  .bg-switch {
+    background-image: url('./static/img/bg.png');
+    /* background-size: auto; */
+  }
+}
+
+@-webkit-keyframes rotating360 /* Safari and Chrome */
+{
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating360 {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.rotating360 {
+  -webkit-animation: rotating360 4s linear infinite;
+  -moz-animation: rotating360 4s linear infinite;
+  -ms-animation: rotating360 4s linear infinite;
+  -o-animation: rotating360 4s linear infinite;
+  animation: rotating360 4s linear infinite;
+}
+
+.btn-primary {
+  transition: 0.3s all ease-out;
+  box-shadow: 0px 4px 40px #ffb14b99;
+  background: #ffb24b;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  transition: 0.3s all ease-out;
+  box-shadow: 0 0 0 transparent;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+
+.btn-secondary {
+  transition: 0.3s all ease-out;
+  box-shadow: 0 0 0 transparent;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+
+.btn-secondary:hover {
+  transition: 0.3s all ease-out;
+  box-shadow: 0px 4px 40px #ffb14b99;
+  border: 1px solid #ffb24b;
+  background: #ffb24b;
+  color: #ffffff;
+}
+
+.card-style-circle {
+  transition: 0.3s all ease-out;
+  border-radius: 50%;
+}
+
+.card-style:hover .card-style-circle {
+  transition: 0.3s all ease-out;
+  box-shadow: 0px 4px 40px #ffb14b99;
+}
+
+.logo-partner {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+.logo-partner:hover {
+  filter: grayscale(0%);
+}
+
+.icon-social {
+  display: block;
+  border-radius: 50%;
+  transition: 0.3s all ease-out;
+}
+.icon-social:hover {
+  transition: 0.3s all ease-out;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #a6a5a7;
+}
