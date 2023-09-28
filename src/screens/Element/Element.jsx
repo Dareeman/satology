@@ -80,8 +80,9 @@ export const Element = () => {
                     className="w-full"
                     headingClassName="!tracking-[0] !text-[36px] ![font-style:unset] !font-bold ![font-family:'Poppins',Helvetica] !leading-[48.0px]"
                     satoshiRegular="/img/satoshi-regular-elipse-1-1.svg"
+                    text="LAUNCHPAD"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
-                    description={`Launch your own special sat that will resonate with collectors and traders. From FTX Crash sats to John sats. `}
+                    description={`Launch your own special sat that will resonate with collectors and traders. From FTX Crash sats to John sats.`}
                   />
                   <Card
                     className="w-full"
@@ -89,13 +90,13 @@ export const Element = () => {
                     satoshiRegular="/img/satoshi-regular-elipse-1-2.svg"
                     text="SWAP"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
-                    description={`Satology aligns the popular AMM model allowing instant buying and selling of special sats. .`}
+                    description={`Satology aligns the popular AMM model allowing instant buying and selling of special sats.`}
                   />
                   <Card
                     className="w-full"
                     headingClassName="!tracking-[0] !text-[36px] ![font-style:unset] !font-bold ![font-family:'Poppins',Helvetica] !leading-[48.0px]"
                     satoshiRegular="/img/satoshi-regular-elipse-1-3.svg"
-                    text="TRADE"
+                    text="POOL"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
                     description={`Become a liquidity provider and earn rewards. When users swap, LP earns a cut of the pool’s fees proportional to their stake.`}
                   />
@@ -103,7 +104,7 @@ export const Element = () => {
                     className="w-full"
                     headingClassName="!tracking-[0] !text-[36px] ![font-style:unset] !font-bold ![font-family:'Poppins',Helvetica] !leading-[48.0px]"
                     satoshiRegular="/img/satoshi-regular-elipse-1-3.svg"
-                    text="POOL"
+                    text="SATOLOGY HANDBOOK"
                     textClassName="!tracking-[0] !text-[18px] ![font-style:unset] !font-normal ![font-family:'Poppins',Helvetica] !leading-[35.2px]"
                     description={`Explore Digital Numismatic world.  Learn everything about satoshis: types of sats, rarities, sat hunting & tips from greatest Satologists.`}
                   />
